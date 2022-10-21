@@ -15,13 +15,13 @@ For the defined file types, it will complete automatically. Like the figure show
 
 对于默认设置中包含的文件类型，该插件将自动起作用，根据输入的英文字母提示匹配的单词，如下图所示。
 
-![A screenshot of the package using](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-cn/master/complete-en-cn-demo.gif)
+![A screenshot of the package using](https://raw.githubusercontent.com/wushuaibuaa/daorongzb/master/complete-en-cn-demo.gif)
 
  The default setting includes text file, latex file, markdown file, null grammar file. If you need to add your file type, add the type string in the setting panel.
 
  默认设置的文件类型包括文本文件(.txt)，latex源文件(.tex)，markdown文件(.md)，无格式文件（无后缀）。如果需要添加另外的文件类型，将文件类型相应的字符串填入设置的框中即可。
 
-![A screenshot of the setting page](https://raw.githubusercontent.com/wushuaibuaa/autocomplete-en-cn/master/setting.png)
+![A screenshot of the setting page](https://raw.githubusercontent.com/wushuaibuaa/daorongzb/master/setting.png)
 
 
 To enable completion for your current file type, open one of the file and put your cursor in, open the Command Palette (cmd+shift+p or ctrl+shift+p), and run the: "Log Cursor Scope" command. This will trigger a notification which will contain a list of scopes. The first scope that's listed is the one you should add to the list of scopes in the settings for the package. Here are some examples: .source.gfm (markdown file), .text.plain (text file), .text.tex.latex (latex file).
@@ -32,4 +32,4 @@ To enable completion for your current file type, open one of the file and put yo
 Inspired by [autocomplete-APPLEASMx64](https://github.com/OrionNebula/autocomplete-APPLEASMx64).
 
 # License
-[MIT](hhttps://github.com/wushuaibuaa/autocomplete-en-cn/blob/master/LICENSE.md) © [Shuai Wu](https://github.com/wushuaibuaa)
+[MIT](hhttps://github.com/wushuaibuaa/daorongzb/blob/master/LICENSE.md) © [Shuai Wu](https://github.com/wushuaibuaa)

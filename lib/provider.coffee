@@ -24,7 +24,7 @@ module.exports =
   loadEnglishCnDict: ->
       fs.readFile path.resolve(__dirname, '..', 'en-cn-dict.json'), (error, content) =>
           return if error
-          filetype = atom.config.get('autocomplete-en-cn.FileType')
+          filetype = atom.config.get('daorongzb.FileType')
           console.log filetype
           @properties = JSON.parse(content)
           @keys = Object.keys(@properties)
