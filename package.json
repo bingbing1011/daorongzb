@@ -1,18 +1,36 @@
 {
   "name": "daorongzb",
   "main": "./lib/daorongzb",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "daorongzb:toggle"
-  },
-  "repository": "https://github.com/atom/daorongzb",
+  "version": "0.1.0",
+  "author": "Shuai Wu <ws.horton@gmail.com>",
+  "description": "English word autocompetion with the hint of Chinese explanation.",
+  "repository": "https://github.com/wushuaibuaa/autocomplete-en-cn",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
+  "keywords": [
+    "autocomplete",
+    "English",
+    "words",
+    "Chinese",
+    "fuzzy"
+  ],
+  "configSchema": {
+    "FileType": {
+      "type": "string",
+      "default": ".text.plain, .text.plain.null-grammar, .text.tex.latex, .source.gfm",
+      "description": "List of scopes for typing which will be given the word completion. See [the README](https://github.com/wushuaibuaa/autocomplete-en-cn/blob/master/README.md) for more information on finding the correct scope for a specific language."
+    }
+  },
   "dependencies": {
+    "fuzzaldrin": "^2.1.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
   }
 }
