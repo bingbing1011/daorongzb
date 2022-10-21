@@ -1,7 +1,7 @@
 {
   "name": "daorongzb",
   "main": "./lib/daorongzb",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "Shuai Wu <ws.horton@gmail.com>",
   "description": "English word autocompetion with the hint of Chinese explanation.",
   "repository": "https://github.com/bingbing1011/daorongzb",
